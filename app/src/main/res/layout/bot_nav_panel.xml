@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/bot_nav_background"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btnHomeBottomNav"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:foreground="@android:color/transparent"
+            android:text="@string/home"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+
+        <Button
+            android:id="@+id/btnTochkovkaBottomNav"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1.16"
+            android:background="@drawable/button_border"
+            android:foreground="@android:color/transparent"
+            android:text="@string/tochkouvka"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnMessengerBotNav"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1.2"
+            android:background="@drawable/button_border"
+            android:foreground="@android:color/transparent"
+            android:text="@string/messages"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnMapBotNav"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1.1"
+            android:background="@drawable/button_border"
+            android:foreground="@android:color/transparent"
+            android:text="@string/map"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnDistribBotNav"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1.5"
+            android:background="@drawable/button_border"
+            android:foreground="@android:color/transparent"
+            android:text="@string/distribution"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnReportsBotNav"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1.2"
+            android:background="@drawable/button_border"
+            android:foreground="@android:color/transparent"
+            android:text="@string/reports"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

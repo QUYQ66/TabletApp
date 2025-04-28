@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TabletAPP</string>
+    <string name="home">Главная</string>
+    <string name="tochkouvka">Точковка</string>
+    <string name="map">Карта разреза</string>
+    <string name="distribution">Распределение</string>
+    <string name="reports">Отчёты</string>
+    <string name="messages">Сообщения</string>
+</resources>

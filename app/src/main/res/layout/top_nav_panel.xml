@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:id="@+id/linearLayout2"
+    android:layout_height="80dp"
+    android:background="@drawable/top_nav_background"
+    android:gravity="left"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="№TC"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_border"
+        android:foreground="@android:color/transparent"
+        />
+
+
+</LinearLayout>

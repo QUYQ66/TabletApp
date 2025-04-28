@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Главная" />
+    <item
+        android:id="@+id/nav_car_status"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Простои" />
+    <item
+        android:id="@+id/Tochovka"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Точковка" />
+    <item
+        android:id="@+id/nav_messenger"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Сообщения" />
+    <item
+        android:id="@+id/nav_map"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Карта разреза"/>
+
+</menu>
